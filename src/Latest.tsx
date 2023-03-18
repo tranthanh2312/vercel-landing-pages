@@ -86,14 +86,14 @@ export default function Latest({}: Props) {
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
     autoplay: autoplay,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 500,
   };
 
   const [timeOut, setIsTimeout] = useState(false);
 
   return (
     <div className="lasted">
-      {autoplay ? "true" : "false "}
+      
       <>
         <SplashScreen></SplashScreen>
       </>

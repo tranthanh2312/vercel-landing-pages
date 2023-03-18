@@ -2,7 +2,7 @@ import React from "react";
 import "./a.scss";
 import "./splash.scss";
 
-import Giaolang2 from "./giaolang_version2.mp4";
+import Giaolang2 from "./version-gl-new.mp4";
 
 type Props = {};
 
